@@ -2,6 +2,7 @@ import fresh_tomatoes
 import media
 
 
+#three movie objects each containing the title, poster url , and trailer url
 fast_and_furious = media.Movie(
         "The Fast & The Furious",
         "https://image.tmdb.org/t/p/original/j9jeJyXWdx1eGVRRwA1drTEjCyV.jpg",
@@ -17,7 +18,9 @@ two_towers = media.Movie(
         "https://image.tmdb.org/t/p/original/5o5fv1dHG7vWoH2hmqwihVPBoBm.jpg",
         "https://www.youtube.com/watch?v=2dlRvAjU_RI")
 
+# creates an array of movies containing the 3 created movies
 movies = [fast_and_furious, return_of_the_jedi, two_towers]
 
+# passes the created movie object into the open_movies_page function
 fresh_tomatoes.open_movies_page(movies)
 

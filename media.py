@@ -6,11 +6,13 @@ Module to display movie object, attributes and instances
 """
 
 
+#declaration of movie class and its contents
 class Movie():
     """
     Class object stores movie related information
     """
 
+    #movie constructor
     def __init__(self, title, poster_image_url, trailer_youtube_url):
         """
         initialize instance of class Movie
